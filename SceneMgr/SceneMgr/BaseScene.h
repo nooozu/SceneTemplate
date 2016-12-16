@@ -5,7 +5,6 @@
 
 //シーンの基底クラス
 class BaseScene : public Task {
-
 protected:
 	ISceneChanger* mSceneChanger;    //クラス所有元にシーン切り替えを伝えるインターフェイス
 
